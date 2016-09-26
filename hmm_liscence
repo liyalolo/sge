@@ -1,0 +1,3 @@
+if [ -e ~/.gm_key ]; then diff ~/.gm_key /System/software/MICRO/genemark_suite_linux_64/gmsuite/gm_key; if [ $? -ne 0 ]; then rm ~/.gm_key; cp /System/software/MICRO/genemark_suite_linux_64/gmsuite/gm_key ~/.gm_key; fi; else cp /System/software/MICRO/genemark_suite_linux_64/gmsuite/gm_key ~/.gm_key; fi
+
+
